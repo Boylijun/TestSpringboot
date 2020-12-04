@@ -20,4 +20,9 @@ public class helloController {
 
         return "index2";
     }
+    @RequestMapping("/index4")
+    public String sayHello3(){
+
+        return "index4";
+    }
 }
