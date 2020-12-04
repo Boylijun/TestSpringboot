@@ -10,4 +10,14 @@ public class helloController {
     public String sayHello(){
         return "index";
     }
+    @RequestMapping("/index1")
+    public String sayHello1(){
+
+        return "index1";
+    }
+    @RequestMapping("/index2")
+    public String sayHello2(){
+
+        return "index2";
+    }
 }
